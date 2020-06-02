@@ -1,0 +1,3 @@
+Hello! As an attempt to make a prime number sieve using Python, I have started a new repository here... 
+At this moment of development, I am only uploading a module for calculating gcd and lcm.
+Please do tell me if you find any bug here... :)
