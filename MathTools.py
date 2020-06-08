@@ -1,4 +1,5 @@
 def factorize(x):
+    # function to factorise numbers
     u = set([1,int(x)])
     for i in range(1,int(x)):
         if x % i == 0:
@@ -6,6 +7,7 @@ def factorize(x):
             u.add(i)
     return u
 def hcf(*num):
+    # highest common factor (or greatest common divisor)
     u = []
     if type(num[0]) == list:
         num = num[0]
@@ -19,10 +21,13 @@ def hcf(*num):
     else:
         y = max(v)
         return y
+    
 def gcd(*num):
+    #for those who love to call gcd rather than hcf :D
     return hcf(list(num))
 
 def lcm(*num):
+    # lowest common multiple
     num = list(num)
     hcf = HCF(num)
     for  i in range(len(num)):
