@@ -29,14 +29,11 @@ def gcd(*num):
 def lcm(*num):
     # lowest common multiple
     num = list(num)
-    hcf = HCF(num)
-    for  i in range(len(num)):
-        num[i] *= 1/hcf
     backup = tuple(num)
     exit_stat = False
     while exit_stat is False:
         num[num.index(min(num))] += backup[num.index(min(num))]
         if num.count(num[0]) == len(num):
             exit_stat = True
-            return num[0] * hcf
+            return num[0] 
 
