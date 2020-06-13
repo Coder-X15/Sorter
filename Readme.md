@@ -33,9 +33,10 @@ ________________________
 The New Update: Intro for All
 ________________________
 I have newly added a module (Sieve.py) to get an object - oriented kind of feel when creating prime sieves.
-_______--
+
+------------
 How To
-_______--
+------------
 
 1) Import Sieve.py to your code
 
