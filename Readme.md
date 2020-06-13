@@ -38,7 +38,9 @@ I have newly added a module (Sieve.py) to get an object - oriented kind of feel 
 How To
 ------------
 
-1) Import Sieve.py to your code
+1) Import Sieve.py to your code:
+
+  ` import Sieve ` or `from Sieve import *` or `import Sieve as sieve` - the last one may make things easy to use.
 
 2) Set up a sieve using the following command:
 
