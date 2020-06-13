@@ -1,3 +1,4 @@
+--------------------
 Hello! As an attempt to make a prime number sieve using Python, I have started a new repository here... 
 Please do tell me if you find any bugs... :)
 ---------------------
@@ -17,3 +18,31 @@ Steps:
 1) Filter out all numbers till the limit which satisfy the condtion:
 n!/n^2  != 0 (n = the number we take)
 2) Remove all numbers which, when factorised, gives more than two integer factors.
+---------------------
+Current Updates (since the last one):
+---------------------
+1 - Made a simpler sieve
+
+2 - Created a wiki
+
+3 - Uploaded example
+
+4 - Updated MathTools.py with factorial function
+
+________________________
+The New Update: Intro for All
+________________________
+I have newly added a module (Sieve.py) to get an object - oriented kind of feel when creating prime sieves.
+_______--
+How To
+_______--
+
+1) Import Sieve.py to your code
+
+2) Set up a sieve using the following command:
+
+  ` sieve = PrimeNumSieve(100) # sieve -> an instance of 'PrimeNumSieve' object, 100 is an arbitary limit (for demo only) `
+
+3) Call the instance as a function:
+
+` sieve()`
