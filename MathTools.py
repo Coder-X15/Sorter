@@ -37,3 +37,9 @@ def lcm(*num):
             exit_stat = True
             return num[0] 
 
+def factorial(x):
+    # factorial function
+    prd = x
+    for i in range(x - 1, 1, -1):
+        prd *= i
+    return prd
