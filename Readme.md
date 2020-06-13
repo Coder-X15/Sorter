@@ -13,5 +13,5 @@ How to do:
 Check the 'SieveExample.py' file for how I did it.
 Steps:
 1) Filter out all numbers till the limit which satisfy the condtion:
-n!/n^2 (n = the number we take)
+n!/n^2  != 0 (n = the number we take)
 2) Remove all numbers which, when factorised, gives more than two integer factors.
