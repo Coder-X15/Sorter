@@ -2,9 +2,11 @@ Hello! As an attempt to make a prime number sieve using Python, I have started a
 Please do tell me if you find any bugs... :)
 ---------------------
 My gratitude goes to:
-(1)Wikipedia - for getting me an article on prime number sieves
-(2)The inventors of the Sieve of Atkin
-(3)Well, you all who download this or at least star this... :)
+(1)Wikipedia - for getting me an article on prime number sieves (really interesting articles, indeed !)
+
+(2)The inventors of the Sieve of Atkin (for inspiring me)
+
+(3)Well, you all who download this or at least star this... :) (for supporting me)
 
 ---------------------
 How to do:
