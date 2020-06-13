@@ -2,6 +2,7 @@ Hello! As an attempt to make a prime number sieve using Python, I have started a
 Please do tell me if you find any bugs... :)
 ---------------------
 My gratitude goes to:
+
 (1)Wikipedia - for getting me an article on prime number sieves (really interesting articles, indeed !)
 
 (2)The inventors of the Sieve of Atkin (for inspiring me)
